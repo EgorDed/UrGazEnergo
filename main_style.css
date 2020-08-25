@@ -42,6 +42,7 @@ h6 {
     justify-content: center;
     align-items: center;
 
+
     background: #44944A;
 
     height: 100%;
@@ -132,12 +133,18 @@ h6 {
 
     align-items: center;
 
-    height: 300px;
-    width: 800px;
+    
+    width: 1000px;
 
-    margin: 100px auto 0px auto;
+    margin: 50px auto 0px auto;
     padding: 20px 100px 30px 30px;
     background: #fff;
+}
+
+.main_help_title h1{
+    font-size: 30px;
+
+    margin-bottom: 10px;
 }
 /********************************************/
 
@@ -150,28 +157,62 @@ h6 {
     align-items: center;
     background: #fff;
     margin-top: 50px;
-    width: 800px;
+
+    width: 1000px;
     max-width: 100%;
     padding: 20px 100px 30px 30px;
-    margin-bottom: 30px;
+}
+
+.stats_title{
+    font-size: 14px;
 }
 
 .blocks {
     display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 1000px;
 }
 
 .block {
-    height: 100px;
-    width: 100px;
-    border: solid;
+    
+
+    height: 150px;
+    width: 220px;
+    
+    border-top: solid 1px;
+
+    padding-top: 15px;
+
+    margin-top: 10px;
     margin-right: 25px;
+
+    font-size: 18px;
 
 }
 
 .block:last-child {
     margin-right: 0;
 }
+#bl_1{
+    width: 250px;
+}
+
+#bl_3{
+    width: 250px;
+}
 /********************************************/
+
+.help_list{
+    list-style: disc;
+
+    line-height: 1.5;
+
+    font-size: 22px;
+}
+
+
 
 
 /*PROJECT_PAGE/////////////////////////////*/
@@ -197,7 +238,11 @@ h6 {
 
     order: initial;
 
-    width: 25%;
+    line-height: 1.5;
+
+    width: 330px;
+    height: 160px;
+
     padding: 45px 25px 45px 25px;
 
     margin: 15px;
@@ -207,7 +252,9 @@ h6 {
 
 .project_btn {
     margin: 25px auto 0 auto;
-    padding: 10px 15px;
+    padding: 15px;
+
+    line-height: 0;
 
     border: 0;
     background: transparent;
@@ -331,15 +378,61 @@ box-shadow: 0px 0px 7px 1px rgba(0,191,255,1);
     align-items: center;
     background: #fff;
     margin-top: 50px;
-    width: 800px;
+    width: 1000px;
     max-width: 100%;
     padding: 20px 100px 30px 30px;
     margin-bottom: 30px;
 }
 
+.naprav_title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.naprav_title h1{
+    margin-bottom: 10px;
+}
+
+.naprav_text{
 
 
+    font-size: 22px;
+}
 
+#no_disck{
+    list-style: none;
+}
+
+.story{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    margin-top: 50px;
+    width: 1000px;
+    max-width: 100%;
+    padding: 20px 100px 30px 30px;
+    margin-bottom: 30px;
+}
+
+.story_title h1{
+    margin-bottom: 10px;
+}
+
+.story_text{
+    font-size: 22px;
+}
+
+.story_text p{
+    text-indent: 40px;
+
+    line-height: 1.5;
+
+    text-align: justify;
+}
 /*CONTACTS_PAGE/////////////////////////////*/
 .address_list {
     display: flex;
@@ -377,11 +470,8 @@ box-shadow: 0px 0px 7px 1px rgba(0,191,255,1);
     display: flex;
     justify-content: space-between;
 
-
-
     margin: 50px;
     padding: 20px 30px;
-
 
     background: #fff;
 
@@ -402,7 +492,6 @@ box-shadow: 0px 0px 7px 1px rgba(0,191,255,1);
 
 .person_list{
     list-style: disc;
-
     line-height: 1.3;
 }
 

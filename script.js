@@ -2,7 +2,8 @@ function f_click(Button) {
     if (Button.previousElementSibling.style.display === 'block') {
         Button.previousElementSibling.style.display = 'none';
         Button.innerHTML = 'ПОДРОБНЕЕ';
-        Button.parentNode.style.width = '25%';
+        Button.parentNode.style.width = '330px';
+        Button.parentNode.style.height = '160px';
 
         Button.parentElement.style.order = 'initial';
 
@@ -13,6 +14,8 @@ function f_click(Button) {
         Button.previousElementSibling.style.display = 'block';
         Button.innerHTML = 'СВЕРНУТЬ';
         Button.parentNode.style.width = '83%';
+        Button.parentNode.style.height = '100%';
+
 
         Button.parentElement.style.order = '-1';
 
