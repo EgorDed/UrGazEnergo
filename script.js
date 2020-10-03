@@ -1,9 +1,15 @@
+var h;
+var w;
+
 function f_click(Button) {
     if (Button.previousElementSibling.style.display === 'block') {
         Button.previousElementSibling.style.display = 'none';
         Button.innerHTML = 'ПОДРОБНЕЕ';
-        Button.parentNode.style.width = '330px';
-        Button.parentNode.style.height = '160px';
+
+
+
+        Button.parentNode.style.width = w;
+        Button.parentNode.style.height = h;
 
         Button.parentElement.style.order = 'initial';
 
@@ -13,6 +19,10 @@ function f_click(Button) {
     } else {
         Button.previousElementSibling.style.display = 'block';
         Button.innerHTML = 'СВЕРНУТЬ';
+
+h = Button.parentNode.style.height;
+        w = Button.parentNode.style.width;
+
         Button.parentNode.style.width = '83%';
         Button.parentNode.style.height = '100%';
 
