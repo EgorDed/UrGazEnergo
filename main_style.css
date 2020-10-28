@@ -1,3 +1,7 @@
+html{
+    background: #e4e0de;
+}
+
 body {
     margin: 0;
     font-family: 'Raleway', sans-serif;
@@ -37,6 +41,7 @@ h6 {
 
 .page {
     display: flex;
+    background: #e4e0de;
 }
 
 .content {
@@ -46,7 +51,7 @@ h6 {
     align-items: center;
 
 
-    background: #B8B8B8;
+    background: #e4e0de;
 
     height: 100%;
     width: 100%;
@@ -170,7 +175,7 @@ h6 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #d6d6d6;
+    background: #fff;
     margin-top: 50px;
 
     width: 1000px;
@@ -240,7 +245,7 @@ h6 {
     justify-content: center;
     align-items: center;
 
-    background: #B8B8B8;
+    background: #e4e0de;
 
     padding: 50px 15px 0 15px;
 }
@@ -264,7 +269,7 @@ h6 {
 
     margin: 15px;
 
-    background: #d6d6d6;
+    background: #fff;
 
     -webkit-box-shadow: -10px -10px 0px 0px rgba(87, 87, 87, 1);
     -moz-box-shadow: -10px -10px 0px 0px rgba(87, 87, 87, 1);
